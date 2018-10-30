@@ -1,8 +1,8 @@
 # count
-N=int(input('enter')
+n=int(input('enter')
 count=0
 while(n>0):
- dig=N%10
+ dig=n%10
  count=count+1
- N=N//10
+ n=n//10
 print(count)
